@@ -1,0 +1,147 @@
+/* FONTS */
+
+.im-fell-dw-pica-regular {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* GENERAL STYLES */
+
+html {
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+    .nav-item {
+        padding: 10px 20px;
+    }
+}
+
+.navbar-toggler {
+    position: relative;
+    bottom: 100px;
+    border:  transparent !important; 
+}
+
+.dropdown-menu {
+    display: block;
+    width: 250px;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    background-color: black;
+    border: 1px solid lightgray !important;
+    .dropdown-item {
+        border-top: 1px solid rgba(211, 211, 211, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+main {
+    color: white;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IM Fell DW Pica", serif;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.horizontal-line {
+    width: 25%;
+    height: 2px;
+    background-color: white;
+}
+
+.dropdown-hover-enabled .desktop-gallery:hover .dropdown-menu {
+    display: block;
+}
+
+.desktop-gallery:active .dropdown-menu {
+    display: none;
+}
+
+.mobile-gallery {
+    display: none;
+    visibility: hidden;
+}
+
+/* CAROUSEL */
+.carousel-inner {
+    max-height: 700px;
+    width: auto;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.gallery-item {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.gallery-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bi-chevron-right {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.mobile-gallery .bi-chevron-right.chevron-rotate {
+  transform: rotate(90deg) !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-logo {
+        display: block;
+    }
+    .normal-logo {
+        display: none;
+    }
+    .nav-item {
+        border-top: 2px solid white;
+    }
+    .mobile-gallery {
+        display: block;
+        visibility: visible;
+    }
+    .desktop-gallery {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .dropdown-item {
+        font-size: 0.9rem;
+        color: white !important;
+        border-top: 1px solid rgba(211, 211, 211, 0.5) !important;
+        padding: 10px 0 !important;
+        text-align: center;
+        align-self: center;
+    }
+}
