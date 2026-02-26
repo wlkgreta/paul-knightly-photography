@@ -29,6 +29,7 @@ The client wanted to migrate their site from Wordpress to a static, hard-coded s
 
 - Reduce unused CSS - optimize Bootstrap
 - Create Contact Form
+- Connect with custom domain once final changes are implemented
 
 ## Acknowledgements
 
