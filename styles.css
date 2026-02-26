@@ -13,6 +13,22 @@ html {
     text-align: center;
 }
 
+main {
+    color: white;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IM Fell DW Pica", serif;
+}
+
+.horizontal-line {
+    width: 25%;
+    height: 2px;
+    background-color: white;
+}
+
+/* NAVBAR */
 
 .navbar-logo {
     width: 100%;
@@ -49,23 +65,8 @@ html {
     }
 }
 
-main {
-    color: white;
-    background-color: black;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "IM Fell DW Pica", serif;
-}
-
 .mobile-logo {
     display: none;
-}
-
-.horizontal-line {
-    width: 25%;
-    height: 2px;
-    background-color: white;
 }
 
 .dropdown-hover-enabled .desktop-gallery:hover .dropdown-menu {
@@ -83,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CAROUSEL */
 .carousel-inner {
+    max-height: 700px;
+}
+
+.carousel-item {
     max-height: 700px;
     width: auto;
 }
