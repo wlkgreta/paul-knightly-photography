@@ -122,6 +122,39 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(90deg) !important;
 }
 
+/* CONTACT FORM */
+.form label {
+    display: flex;
+    justify-self: start;
+}
+
+.form input {
+    border-radius: 0;
+    background-color: #212529;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.form textarea {
+    border-radius: 0;
+    background-color: #212529;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.form button {
+    padding: 10px 75px; 
+    background-color: #273a4d;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 0;
+    color: white;
+}
+
+.form button:hover {
+    background-color: #182430;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 1000px) {
     .mobile-logo {
         display: block;

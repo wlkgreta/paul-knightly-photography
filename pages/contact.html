@@ -109,15 +109,40 @@
                 <div class="row d-flex justify-content-center mt-5">
                     <div class="col-10">
                         <p>
-                        If you have any questions, or would like to use any of my work commercially, please feel free to contact me at:
-                        <br><br>
-                        <span style="color: #e4e45d;">j.paul.knightly@gmail.com</span>
-                        <br><br>
-                        Please be sure to connect with me on Twitter (@KnightlyPhoto) and on Instagram (@paulknightly and @paulknightlyportrait) and at the other social media links at the bottom of the page.
+                        If you have any questions, or would like to use any of my work commercially, please feel free to send me a message via the form below.
                         </p>
                         <br><br>
-                        <img src="../resources/images/Northern-Lights-1-1-of-1-960x640.jpg" class="img-fluid" alt="Photo of the Northern Lights">
                     </div>
+                    <!--FORM-->
+                    <div class="container form">
+                        <form action="https://formspree.io/f/xzdanbkr" method="POST">
+                            <div class="row d-flex flex-wrap justify-content-center">
+                                <div class="col-11 col-lg-10 mb-3">
+                                    <label for="name" class="mb-1">First Name<span style="color: red;">*</span></label>
+                                    <input type="text" name="first-name" id="first-name" class="form-control" aria-required="true" required>
+                                </div>
+
+                                <div class="col-11 col-lg-10 mb-3">
+                                    <label for="name" class="mb-1">Last Name<span style="color: red;">*</span></label>
+                                    <input type="text" name="last-name" id="last-name" class="form-control" aria-required="true" required>
+                                </div>
+
+                                <div class="col-11 col-lg-10 mb-3">
+                                    <label for="email" class="mb-1">E-Mail<span style="color: red;">*</span></label>
+                                    <input type="text" name="email" id="email" class="form-control" aria-required="true" required>
+                                </div>
+
+                                <div class="col-11 col-lg-10 pb-0">
+                                    <label for="availability-details" class="mb-1">Message<span style="color: red;">*</span></label>
+                                    <textarea type="text" name="message" id="message" rows="5" cols="100" class="form-control" aria-required="true" required></textarea>
+                                </div>
+                                <div class="col-12 px-0 pb-0 my-5">
+                                    <button class="btn btn-brand" type="submit">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <img src="../resources/images/Northern-Lights-1-1-of-1-960x640.jpg" class="img-fluid" alt="Photo of the Northern Lights">
                 </div>
             </div>
         </main>
