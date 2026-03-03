@@ -132,12 +132,14 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
     background-color: #212529;
     border: 1px solid rgba(211, 211, 211, 0.5);
+    color: white;
 }
 
 .form textarea {
     border-radius: 0;
     background-color: #212529;
     border: 1px solid rgba(211, 211, 211, 0.5);
+    color: white;
 }
 
 .form button {
