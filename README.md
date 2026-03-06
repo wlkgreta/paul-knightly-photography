@@ -32,4 +32,5 @@ The client wanted to migrate their site from Wordpress to a static, hard-coded s
 
 ## Acknowledgements
 
-[Squoosh](https://squoosh.app/ ) for image compression
+- [Squoosh](https://squoosh.app/ ) for image compression
+- [Formspree](https://formspree.io/) for contact form
