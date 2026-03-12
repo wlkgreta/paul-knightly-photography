@@ -2,7 +2,7 @@
 
 ## Description
 
-The client wanted to migrate their site from Wordpress to a static, hard-coded site hosted by GitHub Pages in order to eliminate recurring hosting fees. I started by coding a copy of their Wordpress site and, in doing so, decided to make some minor design changes. I also improved the overall site performance, accessibility, best practices, and SEO. See [Improvements](#improvements) for details.
+The client wanted to migrate their site from Wordpress to a static, hard-coded site hosted by GitHub Pages in order to eliminate recurring hosting fees. I started by coding a copy of their Wordpress site and, in doing so, decided to make some minor design changes, such as adding a contact form. I also improved the overall site performance, accessibility, best practices, and SEO. See [Improvements](#improvements) for details.
 
 ## Technologies
 
